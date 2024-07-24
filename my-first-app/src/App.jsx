@@ -1,13 +1,18 @@
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import ApartamentsList from './components/ApartamentsList/ApartamentsList.jsx'
+
+import Footer from './components/Footer/Footer'
+import Navbar from './components/Navbar/Navbar.jsx'
+import Sidebar from './components/Sidebar/Sidebar'
 
 function App() {
 
   return (
     <div className='App'>
-
       <Navbar />
-
+      <Sidebar />
+      <Footer />
+      <ApartamentsList />
     </div>
   )
 }

@@ -1,16 +1,18 @@
+import reactLogo from './../../assets/react.svg'
+import navicon from './../../assets/navicon.png'
 import './Navbar.css'
-import logo from './../../assets/logo.png'
+
 const Navbar = () => {
     return (
-        <header className='Navbar'>
-
+        <div className="Navbar">
             <nav>
-                <img src={logo} alt="Logotipo" />
-                <h1>Mar de apartamentos</h1>
+                <div className='buttons'>
+                    <img src={navicon} alt="Navicon" className='navicon' />
+                    <h1>App_artments</h1>
+                </div>
+                <img src={reactLogo} alt="Logotipo" className='logo' />
             </nav>
-
-        </header>
-
+        </div>
     )
 }
 
